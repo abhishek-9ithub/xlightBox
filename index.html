@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>XLightBox</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/xlightbox.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="dist/js/xlightbox.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>xLightBox</h1>
+        <p>v1.01</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="xlightBox">
+                    <li class="item" data-type="image" data-src="http://ndl.mgccw.com/mu3/app/20140122/16/1390379933156/sss/0_small.png">
+                        <img src="http://ndl.mgccw.com/mu3/app/20140122/16/1390379933156/sss/0_small.png">
+                    </li>
+                    <li class="item" data-type="image" data-src="https://1.bp.blogspot.com/-3sm48yiZ7pY/VmcPCSyugMI/AAAAAAAALjE/igWnLyWaHa0/s400/mindblowing-superhd-clear-clean-photos-pictures.jpg">
+                        <img src="https://1.bp.blogspot.com/-3sm48yiZ7pY/VmcPCSyugMI/AAAAAAAALjE/igWnLyWaHa0/s400/mindblowing-superhd-clear-clean-photos-pictures.jpg">
+                    </li>
+                    <li class="item" data-type="video" data-src="https://www.w3schools.com/html/mov_bbb.mp4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQYPdYZa_eWqZjN3oh9WvK6hBjQA8E9Sf3VHY4La_f7qFxysy">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    $(function() {
+        $('.xlightBox').xlightBox();
+    })
+</script>
+
+</html>
